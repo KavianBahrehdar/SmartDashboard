@@ -1,4 +1,4 @@
-# Bahrehdar, Kavian, 22102523
+# Bahrehdar, Kavian
 
 ## Projekttitel: SMART DASHBOARD
 
