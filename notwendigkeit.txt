@@ -1,0 +1,29 @@
+npm init -y
+npm install express dotenv
+npx tsc --init
+npm i --save-dev @types/express
+tsc
+node server.js
+
+
+
+server
+npm install typescript
+npm install -save nodemon
+npm install -save body-parser cors
+npm i mongoose
+#client
+npm install --legacy-peer-deps axios
+
+
+##weather
+https://codepen.io/MiguelEnc/pen/vmZVar
+npm i -D @vue-leaflet/vue-leaflet leaflet
+npm install --save  --legacy-peer-deps vue2-leaflet-geosearch leaflet-geosearch
+
+db password : wRJ7pb4iYPVHg9LP
+username : kavianbrd
+##sign up
+ npm i bcryptjs passport passport-jwt jsonwebtoken
+
+  npm install --save-dev --legacy-peer-deps jwt-decode @types/jwt-decode
