@@ -48,7 +48,7 @@ app.get('/forecast/:latitude/:longitude', async(req, res) => {
   try {
     const latitude = req.params.latitude
     const longitude = req.params.longitude
-    const api_key = '1fe4bb8a3cd958d18224b269877d3cfc'
+    const api_key = 'DELETED DUE TO SECURITY'
 
     const response = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=metric&appid=${api_key}`);
     res.json(response.data);
@@ -61,7 +61,7 @@ app.get('/weather/:latitude/:longitude', async(req, res) => {
   try {
     const latitude = req.params.latitude
     const longitude = req.params.longitude
-    const api_key = '1fe4bb8a3cd958d18224b269877d3cfc'
+    const api_key = 'DELETED DUE TO SECURITY'
 
     const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${api_key}`);
     res.json(response.data);
@@ -91,7 +91,7 @@ app.get('/humidity', async(req, res) => {
   }
 });
 // connenct to database
-mongoose.connect("mongodb+srv://kavianbrd:wRJ7pb4iYPVHg9LP@backenddb.xrmlj5p.mongodb.net/?retryWrites=true&w=majority&appName=BackendDB")
+mongoose.connect("DELETED DUE TO SECURITY")
 .then(() => {
   console.log("connected to database")
   app.listen(PORT, () => {
